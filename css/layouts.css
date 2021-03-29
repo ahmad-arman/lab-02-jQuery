@@ -1,0 +1,11 @@
+section {
+    border: 3px solid red;
+  float: left;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    margin: 15px ;
+}
+footer{
+    clear: both;
+}

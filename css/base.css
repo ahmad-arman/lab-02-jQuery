@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 960px;
+    margin: auto;
+    display:grid;
+    grid-template-rows: 80px 1fr 80px ;
+}
+
+footer {
+    
+   color: white;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+}
+header  {
+    color: white;
+    text-align: center;
+    background-color: black;
+    /* height: 80px;
+    line-height: 80px; */
+
+    
+}
+select#filter {
+    margin-right: 80%;
+}
+
+main{
+    margin-top: 20px;
+}
+
