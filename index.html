@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/layouts.css">
     <link rel="stylesheet" href="./css/modules.css">
+
+    <script id='template' type='text/x-tmpl-mustache'>
+
+      <section id="photo-template">
+        <h2>{{title}} </h2>
+        <img src="{{imageUrl}}" alt="">
+        <p> {{description}}</p>
+      </section>
+      
+    </script>
+
   </head>
   <body>
     <header>
@@ -16,6 +27,14 @@
       <select id="filter">
         <option value="default">Filter by Keyword</option>
       </select>
+      <select id="sort">
+        <option value="horns">by number Horns</option>
+        <option value="title">by title</option>
+      </select>
+
+      <input id="page1"  type="submit"  value="page1">
+      <input id="page2"  type="button" value="page2" >
+     
     </header>
     <main> 
         
@@ -29,6 +48,8 @@
       &copy; 2018 Code Fellows
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
